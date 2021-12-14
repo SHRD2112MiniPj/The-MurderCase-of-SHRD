@@ -1,0 +1,30 @@
+public static boolean quiz() {
+			Scanner sc = new Scanner(System.in);
+			int answer = 0;
+			boolean correct = false;
+			int count = 0;
+			while (correct == false && count < 6) {
+				System.out.print("\n[덜컹덜컹, 쓰레기통에 뭔가 버려진 것 같다. 그런데 녹슨 번호 자물쇠로 잠겨있고 퀴즈가 적혀있다.]\n"
+						+ "[(넌센스) 다음 수열의 다음에 올 숫자를 맞추시오],[0]포기\n" + "[ 1 , 11 , 12 , 1121 , 122111 ,   ?   ]\n>> ");
+				count++;
+				answer = sc.nextInt();
+
+				if (answer == 112213) {
+					System.out.println("\n[딸깍, 자물쇠가 풀렸습니다]\n['증거물: 불그스름한 녹슨 커터칼' 을(를) 습득하였습니다.]");
+					correct = true;
+				} else if (answer == 0) {
+//				turn +=count;
+					break;
+				} else {
+					if(count >5) {
+						System.out.println("[딸깍, 자물쇠가 망가진 것 같다.]\n ['증거물: 불그스름한 녹슨 커터칼' 을(를) 습득하였습니다.]");
+						}else {
+							System.out.println("\n[끼릭,끼릭, 자물쇠가 열리지 않는다. 번호가 틀린 것 같다.]");
+						}
+				}
+//				turn +=count;
+				
+			}
+
+			return correct;
+	}
