@@ -1,5 +1,5 @@
 
-public class Image {    // �ƽ�Ű ��Ʈ
+public class Image {    // 아스키 아트
 
 
 	public void imageIntro() {
@@ -113,7 +113,7 @@ public class Image {    // �ƽ�Ű ��Ʈ
 					+ "");
 		}
 		
-		public void imageRing() { // ���̾ƹ���
+		public void imageRing() { // 다이아반지
 			System.out.println(""
 					+ "\n"
 					+"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\n"
@@ -135,7 +135,7 @@ public class Image {    // �ƽ�Ű ��Ʈ
 					+ "@@@@@@@@@@@@@@@@@@@@@@@@@#@@@@@@@@@@@@@@");
 		}
 		
-		public void imageBlade() { //Ŀ��Į
+		public void imageBlade() { //커터칼
 			System.out.println(""
 					+ "\n"
 					+ "                                       \r\n"
@@ -247,5 +247,52 @@ public class Image {    // �ƽ�Ű ��Ʈ
 		            
 
 		}
+	public static void rentDoc() {
+		System.out.println();
+//		System.out.println("========================================== ");
+//		System.out.println("===============증거를 발견했다!============== ");
+//		System.out.println("========================================== ");
+		System.out.println("            ______________                  ");
+		System.out.println("            \\            \\                ");
+		System.out.println("             |  차 용 증   |                 ");
+		System.out.println("            /            /                 ");
+		System.out.println("           |     1 억    |                 ");
+		System.out.println("            \\            \\                 ");
+		System.out.println("             \\  장현도빌림, \\               ");
+		System.out.println("             |  pbk 빌려줌  |                 ");
+		System.out.println("             /            /                 ");
+		System.out.println("            /____________/                 ");
+		System.out.println("                                           ");
+		System.out.println("========================================== ");
+//		System.out.println("===============차용증을 발견했다!============== ");
+//		System.out.println("========================================== ");
 
+	}
+
+	public static void payDoc() {
+
+//		System.out.println("===============증거를 발견했다!============== ");
+//		System.out.println("========================================== ");
+		System.out.println("            ______________                  ");
+		System.out.println("            \\             \\                ");
+		System.out.println("             |  급여명세서  |                 ");
+		System.out.println("           ./             /                 ");
+		System.out.println("           /  박나영:1천  /                 ");
+		System.out.println("          /             /                 ");
+		System.out.println("          |.  pbk:500   |                 ");
+		System.out.println("           \\  김지은:400 \\                 ");
+		System.out.println("            \\  서하라:400 \\                 ");
+		System.out.println("             \\            \\                 ");
+		System.out.println("              |  장현도:170 |                 ");
+		System.out.println("             /             /                 ");
+		System.out.println("            |             |                 ");
+		System.out.println("             \\____________\\                 ");
+		System.out.println("                                           ");
+		System.out.println("                                           ");
+//		System.out.println("========================================== ");
+//		System.out.println("===============차용증을 발견했다!============== ");
+//		System.out.println("========================================== ");
+		System.out.println();
+
+	}
 }
