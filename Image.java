@@ -247,7 +247,7 @@ public class Image {    // 아스키 아트
 		            
 
 		}
-	public static void ImageRentDoc() {
+	public void ImageRentDoc() {
 		System.out.println();
 //		System.out.println("========================================== ");
 //		System.out.println("===============증거를 발견했다!============== ");
@@ -269,7 +269,7 @@ public class Image {    // 아스키 아트
 
 	}
 
-	public static void ImagePayDoc() {
+	public void ImagePayDoc() {
 
 //		System.out.println("===============증거를 발견했다!============== ");
 //		System.out.println("========================================== ");
