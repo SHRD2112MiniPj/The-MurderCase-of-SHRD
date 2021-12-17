@@ -55,5 +55,8 @@ public class MusicPlayer {
 	public void draweropen() {
 		mp3.play("C://music/서랍 열고 닫는 소리(수정).mp3");
 	}
+	public void Playgrope() {
+		mp3.play("C://music/뒤적이는 소리(수정).mp3");
+	}
 
 }
