@@ -43,5 +43,17 @@ public class MusicPlayer {
 	public void Badending() {
 		mp3.play("C://music/실패 엔딩 효과음.mp3");
 	}
+///////////////////////////////	//////////////////////////////////////////////////////추가본////////////////////////////////////////////////////////
+	public void Reasoning() {
+		mp3.play("C://music/추리.mp3");
+	}
+
+	public void cabinetopen() {
+		mp3.play("C://music/캐비닛 열고 닫는 소리(수정.mp3)"); // 캐비넷 여는 소리
+	}
+
+	public void draweropen() {
+		mp3.play("C://music/서랍 열고 닫는 소리(수정).mp3");
+	}
 
 }
